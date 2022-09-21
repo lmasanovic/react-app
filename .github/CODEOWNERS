@@ -1,4 +1,4 @@
 * @lmasanovic
 *.js @lmasanovic
-*.yml @lmasanovic
+*.yml @greqq
 /public/ @lmasanovic
