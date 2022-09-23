@@ -19,7 +19,6 @@ jobs:
         id: hello
         with:
           who-to-greet: "World"
-      - run: chmod +x entrypoint.sh
       - run: |
           echo "Time: ${{ steps.hello.outputs.time }}"
           echo $HELLO
